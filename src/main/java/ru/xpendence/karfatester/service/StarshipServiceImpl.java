@@ -14,8 +14,7 @@ import java.time.LocalTime;
 /**
  * Author: Vyacheslav Chernyshov
  * Date: 14.02.19
- * Time: 17:41
- * e-mail: vyacheslav.chernyshov@stoloto.ru
+ *  e-mail: 2262288@gmail.com
  */
 @Service
 @Slf4j
