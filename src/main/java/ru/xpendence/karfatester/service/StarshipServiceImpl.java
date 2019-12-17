@@ -35,7 +35,7 @@ public class StarshipServiceImpl implements StarshipService {
     public void produce() {
         StarshipDto dto = createDto();
         log.info("<= sending {}", writeValueAsString(dto));
-        kafkaStarshipTemplate.send("server.starship", dto);
+        kafkaStarshipTemplate.send("test", dto);
     }
 
     private StarshipDto createDto() {
